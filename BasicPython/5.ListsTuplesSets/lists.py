@@ -83,4 +83,3 @@ print(course_str)
 # Для того, чтобы разбить строку на компоненты и сформировать список, существует метод split
 new_list = course_str.split(f'{separator}')
 print(new_list)
-

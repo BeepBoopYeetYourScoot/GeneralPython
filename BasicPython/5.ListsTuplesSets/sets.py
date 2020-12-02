@@ -26,5 +26,5 @@ print(cs_courses.difference(art_courses))
 # Метод позволяет получить все значения, имеющиеся во множествах
 print(cs_courses.union(art_courses))
 
-
+cs_courses.
 
