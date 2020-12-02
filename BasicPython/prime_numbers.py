@@ -1,5 +1,4 @@
 import time
-
 start_time = time.time()
 
 try:
@@ -26,5 +25,5 @@ def return_closest_prime(value):
 
 
 end_time = time.time()
-print(return_closest_prime(x), f'Program was executed in {end_time - start_time} seconds')
+print(str(return_closest_prime(x)) + '\n' + f'Program was executed in {end_time - start_time} seconds')
 
