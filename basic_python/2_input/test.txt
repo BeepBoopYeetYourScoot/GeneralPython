@@ -1,0 +1,10 @@
+1. This is a test file
+2. With multiple lines of data
+3. Third line
+4. Fourth line
+5. Fifth line
+6. Another line
+7. And another line
+8. Eighth line
+9. Line number nine
+10. Tenth line - the end of the test file
