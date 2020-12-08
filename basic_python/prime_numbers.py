@@ -1,5 +1,4 @@
-import time
-start_time = time.time()
+# Решето Эратосфена
 
 try:
     x = int(input('Введите число:'))
@@ -23,7 +22,4 @@ def create_prime_set(max_value):
 def return_closest_prime(value):
     return max(create_prime_set(value))
 
-
-end_time = time.time()
-print(str(return_closest_prime(x)) + '\n' + f'Program was executed in {end_time - start_time} seconds')
 
