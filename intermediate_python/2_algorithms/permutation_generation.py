@@ -31,4 +31,4 @@ def generate_permutations(c_sys_base: int, num_of_digits: int = -1, prefix = Non
         prefix.pop()
 
 
-generate_permutations(5)
+generate_permutations(6)

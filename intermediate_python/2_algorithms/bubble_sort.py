@@ -20,9 +20,9 @@ def bubble_sort(array_to_sort: list):
         типы массивов"""
 
     for n in range(1, len(array_to_sort)):
-        for m in range(n):
-            if array_to_sort[m] > array_to_sort[n]:
-                array_to_sort[n], array_to_sort[m] = array_to_sort[m], array_to_sort[n]
+        for m in range(len(array_to_sort) - n):
+            if array_to_sort[m] > array_to_sort[m+1]:
+                array_to_sort[m], array_to_sort[m+1] = array_to_sort[m+1], array_to_sort[m]
 
     return array_to_sort
 
